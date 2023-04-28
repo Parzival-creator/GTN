@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="EN-en">
+    <head>
+        <title>Guess the number</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="title">
+            <p>Guess the number</p>
+        </div>
+        <div class="game">
+            <p>Input a number between</p>
+            <p id="rule">1 et 100 (included)</p>
+            <input type="number" placeholder="Nombre" id="choice" min="1" max="100">
+            <button id="submit" onclick="Check()">Submit</button>
+            <p id="result"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

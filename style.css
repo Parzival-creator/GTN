@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(30deg, #00A3DA, #03F7FF);
+    font-family: Arial;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.game {
+    width: 500px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #ffffff;
+    aspect-ratio: 1/0.5;
+    box-shadow: 5px 5px 5px #686868;
+    font-size: 23px;
+}
+
+.game p {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.game input {
+    border: solid 1px #000000;
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.game button {
+    border: solid 1px #000000;
+    border-radius: 50px;
+    font-weight: bold;
+    width: 120px;
+    font-size: 23px;
+}
